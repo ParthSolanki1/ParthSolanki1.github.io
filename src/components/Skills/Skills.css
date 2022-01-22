@@ -1,0 +1,28 @@
+/* My Skills CSS */
+.skills{
+    background:#f0f8ff;
+  }
+
+.skill-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-level {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+i {
+    font-size: 90px;
+}

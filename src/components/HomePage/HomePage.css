@@ -1,0 +1,129 @@
+/* home section styling */
+.home{
+    height:100vh;
+    width:100%;
+    display: flex;
+  }
+.home .home-content{
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.home .text-one{
+    font-size:25px;
+    color:var(--black-color);
+}
+.home .text-two{
+    color:var(--black-color);
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-three{
+    font-size: 40px;
+    margin:5px 0;
+    color:var(--primary-color);
+}
+.home .text-four{
+    font-size: 23px;
+    margin:5px 0;
+    color:var(--black-color);
+}
+.home .button{
+    margin:14px 0;
+}
+.home .button button{
+    outline:none;
+    padding:8px 16px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background:var(--primary-color);
+    color:var(--white-color);
+    cursor:pointer;
+    border:2px solid transparent;
+    transition: all 0.4s ease;
+}
+.home .button button:hover{
+    border-color:var(--primary-color);
+    background-color: var(--white-color);
+    color:var(--primary-color);
+}
+
+.headshot {
+      height: 60vh;
+}
+
+.media-icons {
+    display: none;
+    align-items: center;
+}
+
+.media-icons a{
+    color:var(--primary-color);
+    font-size: 25px;
+    height: 25px;
+    margin:0 6px;
+    transition: all 0.1s ease;
+}
+
+.media-icons a:hover {
+    color: var(--hover-color);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 10px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.button-1 {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 100;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    margin-left: 6px;
+}
+
+.button-1:hover {
+    background-color: #fa5b53;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 10px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+@media (max-width:750px){
+  
+     .home .text-two{
+       font-size: 65px;
+     }
+     .home .text-three{
+      font-size: 35px;
+    }
+
+    .media-icons {
+        display: flex;
+    }
+}
+
+@media (max-width:650px) {
+    .headshot {
+        display: none;
+    }
+
+    .logo-img {
+        display: block;
+    }
+}
+  
+@media (max-width:500px){
+    .home .text-two{
+      font-size: 55px;
+    }
+    .home .text-three{
+      font-size: 33px;
+    }
+}

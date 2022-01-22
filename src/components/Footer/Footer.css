@@ -1,0 +1,45 @@
+.footer .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.footer .content .message {
+    display: flex;
+    align-items: center;
+}
+
+.footer a {
+    color: var(--primary-color)
+}
+
+.footer .socials a {
+    margin: 0px 30px;
+    font-size: 30px;
+    transition: smooth 0.2s ease;
+}
+
+.footer .socials a:hover {
+    color: var(--hover-color);
+}
+
+.footer .message {
+    margin-top: 5px;
+}
+
+.footer .topic {
+    margin: 0;
+    font-size: 30px
+}
+
+.footer .message {
+    font-size: 25px;
+    margin-left: 10px;
+    justify-self: end;
+}
+
+.footer {
+    padding-top: 0;
+}
